@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#09C"
+                android:padding="@dimen/widget_margin">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_verified_user_black_24dp"
+        android:tint="@color/colorAccent"/>
+    <!--
+    app:srcCompat="@drawable/ic_verified_user_black_24dp" does not work too.
+    It does not show : Problem with loading widget, but show just blue background...
+     -->
+</RelativeLayout>
